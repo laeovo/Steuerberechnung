@@ -8,8 +8,14 @@
 
 #include <iostream>
 
+#include "Steuerberechnung.hpp"
+
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    Steuerberechnung sb;
+    sb.setzeParameter();
+    sb.run();
+    
     return 0;
 }
